@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yucatán Web - Mérida</title>
+    
+
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #6cd1ec; 
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+       
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        
+        .main-banner img {
+            width: 100%;
+            display: block;
+        }
+
+        
+        .main-menu {
+            display: flex;
+            background-color: #243ee9; 
+            padding: 10px;
+            justify-content: space-between;
+        }
+
+        .main-menu a {
+            flex: 1;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            padding: 12px 0;
+            font-size: 16px;
+            font-weight: bold;
+            border: 1px solid white; 
+            margin: 0 5px;
+            transition: background-color 0.3s ease; 
+        }
+
+        
+        .main-menu a:hover {
+            background-color: #011bc5; 
+            color: #ffcc00; 
+        }
+
+        
+        
+
+       
+        .content-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 40px 20px;
+        }
+
+        .logo-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo-section img {
+            max-width: 250px;
+            height: auto;
+        }
+
+        .text-section {
+            flex: 1.5;
+            padding: 0 20px;
+        }
+
+        .text-section p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #333333;
+            text-align: justify;
+        }
+
+        
+        .main-footer {
+            background-color: #0827f1;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+
+        .footer-info p {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .footer-info a {
+            color: rgb(254, 253, 255);
+            text-decoration: none;
+        }
+
+        .footer-socials {
+            display: flex;
+            gap: 10px;
+        }
+
+        .footer-socials img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: white; 
+        }
+    </style>
+   
+    
+</head>
+<body>
+
+    
+    <div class="container">
+        
+       
+        <header class="main-banner">
+            <img src="imagenes/baner.png" alt="Banner Mérida">
+        </header>
+
+        
+        <nav class="main-menu">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="parques.html">Parques</a>
+            <a href="gastronomia.html">Gastronomía</a>
+            <a href="arqueologia.html">Arqueología</a>
+            <a href="museos.html">Museos</a>
+        </nav>
+
+        
+        <main class="content-wrapper">
+            <div class="logo-section">
+                <img src="imagenes/escudo.jpg" alt="Escudo de Mérida">
+            </div>
+            <div class="text-section">
+                <p><strong>Mérida</strong>, conocida como la "Ciudad Blanca", es la vibrante capital del estado de Yucatán y una de las joyas culturales del sureste mexicano. Es famosa mundialmente por su invaluable herencia maya y colonial, la calidez de sus habitantes y sus calles llenas de color e historia. Rodeada de haciendas, cenotes y reservas naturales, la ciudad destaca por su tranquilidad, seguridad y un crecimiento constante que la convierte en un referente cultural, turístico y gastronómico del país.</p>
+            </div>
+        </main>
+
+       
+        <footer class="main-footer">
+            <div class="footer-info">
+                <p>Derechos Reservados © IdeaNet</p>
+                <p><a href="mailto:ideanet@ideanet.mx">ideanet@ideanet.mx</a></p>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><img src="imagenes/instagram.png" alt="Instagram"></a>
+        
+                <a href="#"><img src="imagenes/facebook.png" alt="Facebook"></a>
+            </div>
+        </footer>
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yucatán Web - Gastronomía</title>
+    
+    
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #ff90f9; 
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        
+        .main-banner img {
+            width: 100%;
+            display: block;
+        }
+
+        
+        .main-menu {
+            display: flex;
+            background-color: #ff3faf; 
+            padding: 10px;
+            justify-content: space-between;
+        }
+
+        .main-menu a {
+            flex: 1;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            padding: 12px 0;
+            font-size: 16px;
+            font-weight: bold;
+            border: 1px solid white; 
+            margin: 0 5px;
+            transition: background-color 0.3s ease; 
+        }
+
+        
+        .main-menu a:hover {
+            background-color: #800075; 
+            color: #ffcc00; 
+        }
+
+        
+       
+
+       
+        .content-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 40px 20px;
+        }
+
+        .logo-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo-section img {
+            max-width: 320px;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .text-section {
+            flex: 1.5;
+            padding: 0 20px;
+        }
+
+        .text-section h1 {
+            color: #b4017e;
+            margin-bottom: 15px;
+            font-size: 28px;
+            text-transform: uppercase;
+        }
+
+        .text-section p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #333333;
+            text-align: justify;
+            margin-bottom: 12px;
+        }
+
+        
+        .main-footer {
+            background-color: #ca088a;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+
+        .footer-info p {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .footer-info a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-socials {
+            display: flex;
+            gap: 15px;
+        }
+
+        .footer-socials img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: white;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <div class="container">
+        
+        
+        <header class="main-banner">
+            <img src="imagenes/baner.png" alt="Banner Mérida">
+        </header>
+
+        
+        <nav class="main-menu">
+            <a href="index.html">Inicio</a>
+            <a href="parques.html">Parques</a>
+            <a href="gastronomia.html" class="active">Gastronomía</a>
+            <a href="arqueologia.html">Arqueología</a>
+            <a href="museos.html">Museos</a>
+        </nav>
+
+       
+        <main class="content-wrapper">
+            <div class="logo-section">
+                <img src="imagenes/comida.jpg" alt="Gastronomía de Yucatán">
+            </div>
+            <div class="text-section">
+                <h1>Gastronomía</h1>
+                <p><strong>Tres platillos tradicionales más populares de Mérida:</strong></p>
+                <p>1. <strong>Cochinita Pibil:</strong> El indiscutible rey de la cocina yucateca. Consiste en carne de cerdo adobada en achiote, envuelta en hojas de plátano y cocinada tradicionalmente en un horno subterráneo (piib). Se sirve típicamente en tacos o tortas acompañados de cebolla morada curtida y chile habanero.</p>
+                <p>2. <strong>Sopa de Lima:</strong> Un caldo ligero y reconfortante elaborado con pollo desmenuzado, crujientes tiras de tortilla frita y el toque aromático único e indispensable de la lima local, un cítrico característico de la península que le da un sabor inigualable.</p>
+                <p>3. <strong>Panuchos y Salbutes:</strong> Antojitos tradicionales hechos a base de maíz. Los panuchos llevan una tortilla rellena de frijol negro que se fríe hasta quedar crujiente, mientras que los salbutes son más suaves. Ambos se cubren con lechuga, carne de pavo o pollo, aguacate y jitomate.</p>
+            </div>
+        </main>
+
+        
+        <footer class="main-footer">
+            <div class="footer-info">
+                <p>Derechos Reservados © IdeaNet</p>
+                <p><a href="mailto:ideanet@ideanet.mx">ideanet@ideanet.mx</a></p>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><img src="imagenes/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="imagenes/facebook.png" alt="Facebook"></a>
+            </div>
+        </footer>
+        
+    </div>
+
+</body>
+</html>
